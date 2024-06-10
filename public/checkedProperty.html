@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checked Property</title>
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2em;
+      }
+
+      #submit {
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" id="myCheckBox" />
+    <label for="myCheckBox">Subscribe</label><br /><br>
+
+    <input type="radio" name="card" id="visaBtn" />
+    <label for="visaBtn">Visa</label><br />
+
+    <input type="radio" name="card" id="masterCardBtn" />
+    <label for="masterCardBtn">MasterCard</label><br />
+
+    <input type="radio" name="card" id="payPalBtn" />
+    <label for="payPalBtn">PayPal</label><br /><br>
+
+    <button type="submit" id="submit">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+
+    <script src="/basic/checkedProperty.js"></script>
+  </body>
+</html>
