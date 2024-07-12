@@ -2,7 +2,8 @@ function openFridge(...foods) {
   console.log(foods);
 }
 
-// Menyalik array
+
+// Menyalin array
 function getFood(...foods) {
   return foods;
 }
