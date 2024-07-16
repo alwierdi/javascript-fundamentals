@@ -1,16 +1,16 @@
 let userName = "alwi Erdi"
 /*
-userName.charAt(0)  // untuk menembak index target
-userName.indexOf("E")  // untuk menghitung (target) index keberapa
-userName.lastIndexOf("r")  // untuk menghitung jumlah index sebelum (target)
-userName.length()  //untuk menghitung panjang string
-userName = userName.trim()  // untuk menghilangkan spasi
-userName = userName.toUpperCase()  // untuk kapital
-userName = userName.toLowerCase()  // untuk !kapital
-userName = userName.repeat(3)
-userName = userName.startsWith(" ")  // untuk cek apakah string diawali oleh (target)
-userName = userName.endsWith(" ")  // untuk cek apakah string diakhiri oleh (target)
-userName = userName.includes(" ")  // untuk cek apakah ada (target) di dalam string
+    userName.charAt(0)  // untuk menembak index target
+    userName.indexOf("E")  // untuk menghitung (target) index keberapa
+    userName.lastIndexOf("r")  // untuk menghitung jumlah index sebelum (target)
+    userName.length()  //untuk menghitung panjang string
+    userName = userName.trim()  // untuk menghilangkan spasi
+    userName = userName.toUpperCase()  // untuk kapital
+    userName = userName.toLowerCase()  // untuk !kapital
+    userName = userName.repeat(3)
+    userName = userName.startsWith(" ")  // untuk cek apakah string diawali oleh (target)
+    userName = userName.endsWith(" ")  // untuk cek apakah string diakhiri oleh (target)
+    userName = userName.includes(" ")  // untuk cek apakah ada (target) di dalam string
 */
 
 console.log(userName)
