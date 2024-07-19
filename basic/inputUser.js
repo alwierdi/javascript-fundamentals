@@ -5,8 +5,8 @@ document.getElementById("submit").onclick = function () {
   document.getElementById("heading").textContent = `Hello, ${username}`;
 };
 
-// TypeCasting convert strings,number,boolean
 let age = prompt("How old are you?")
+// TypeCasting convert strings,number,boolean
 age = Number(age);
 age += 1
 console.log(age, typeof age)
