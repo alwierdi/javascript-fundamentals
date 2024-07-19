@@ -1,6 +1,6 @@
 /*
     -> map berguna untuk membuat array baru yang panjang array nya
-       sama dengan panjang array aslinya, namun elemennya berbeda
+       sama dengan panjang array aslinya, namun elemennya dapat berbeda
 */
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
