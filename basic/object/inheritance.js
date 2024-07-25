@@ -27,7 +27,7 @@ class Fish extends Animal {
   name = "Fish";
 
   swim() {
-    console.log(`This ${this.name} is swimming`);
+    console.log(`This ${this.name} is swimming when he was ${this.age} years old`);
   }
 }
 
@@ -41,6 +41,10 @@ class Hawk extends Animal {
 const rabbit = new Rabbit();
 const fish = new Fish();
 const hawk = new Hawk();
+
+// kita dapat menambahkan properti baru yang tidak harus dimiliki oleh parent
+// dengan cara this.properti = value, namun lebih baik ditaro di dalam object
+fish.age = 5;
 
 fish.isAlive = false;
 
